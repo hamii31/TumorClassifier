@@ -9,7 +9,7 @@ namespace TumorClassifier.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "FileUpload");
         }
 
         public IActionResult Privacy()
