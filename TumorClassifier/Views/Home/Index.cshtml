@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Identify a tumor with the use of AI</h2>
+    <form id="form1" runat="server">
+        <div>
+            <h2>Upload File</h2>
+            <asp:FileUpload ID="FileUpload1"/>
+            <asp:Button ID="Button1" Text="Upload" OnClick="Button1_Click" />
+            <asp:Label ID="Label1" Text=""></asp:Label>
+        </div>
+    </form>
+</div>
