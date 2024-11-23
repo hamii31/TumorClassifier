@@ -1,6 +1,8 @@
-﻿namespace TumorClassifier.Services
+﻿using TumorClassifier.Models;
+
+namespace TumorClassifier.Services
 {
-    public class InputService
+    public class FileService
     {
         public static byte[] ImageToByteArray(string imagePath)
         {

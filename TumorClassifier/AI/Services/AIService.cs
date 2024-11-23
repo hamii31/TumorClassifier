@@ -1,5 +1,5 @@
 ﻿using BreastCancerImageAssessmentMLM;
-using static TumorClassifier.Services.InputService;
+using static TumorClassifier.Services.FileService;
 
 namespace TumorClassifier.AI.Services
 {
